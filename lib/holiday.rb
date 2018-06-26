@@ -63,6 +63,8 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each_with_index do |(holiday, supplies), index|
       string = "  #{holiday.capitalize}: "
       index != holiday.length-1 ? string << "#{supplies.capitalize}, " : string << "#{supplies.capitalize}"
+    end
+    holiday_hash
 end
 
 def all_holidays_with_bbq(holiday_hash)
