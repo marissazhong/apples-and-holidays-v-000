@@ -86,3 +86,19 @@ def all_holidays_with_bbq(holiday_hash)
   }
   holidays
 end
+
+holiday_hash = {
+   :winter => {
+     :christmas => ["Lights", "Wreath"],
+     :new_years => ["Party Hats"]
+   },
+   :summer => {
+     :fourth_of_july => ["Fireworks", "BBQ"]
+   },
+   :fall => {
+     :thanksgiving => ["Turkey"]
+   },
+   :spring => {
+     :memorial_day => ["BBQ"]
+   }
+ }
