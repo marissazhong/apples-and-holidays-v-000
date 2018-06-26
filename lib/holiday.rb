@@ -64,7 +64,8 @@ def all_supplies_in_holidays(holiday_hash)
       string = "  #{holiday.capitalize}: "
       index != holiday.length-1 ? string << "#{supplies.capitalize}, " : string << "#{supplies.capitalize}"
     end
-    holiday_hash
+    puts string
+  end
 end
 
 def all_holidays_with_bbq(holiday_hash)
